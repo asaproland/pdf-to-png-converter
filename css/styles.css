@@ -1,0 +1,52 @@
+body { 
+    font-family: Arial, sans-serif; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+}
+h1 { 
+    color: #333; 
+    text-align: center; 
+}
+.container { 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+#fileInput, #convertBtn { 
+    margin: 10px 0; 
+}
+#convertBtn { 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+#convertBtn:hover { 
+    background-color: #45a049; 
+}
+#progress { 
+    display: none; 
+    margin-top: 20px; 
+}
+#progressBar { 
+    width: 100%; 
+    height: 20px; 
+}
+#result { 
+    margin-top: 20px; 
+}
+#pdfPreview, #pngPreview { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+.previewPage { 
+    margin: 10px; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.2); 
+}
